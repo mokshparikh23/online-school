@@ -107,7 +107,22 @@ Build a simplified Online School System as a Spring Boot REST application. Multi
 
 # Part II: Starter Code
 
-See `src/main/java/com/company/onlineschool/`.
+- `src/main/java/com/company/onlineschool/OnlineSchoolApplication.java`
+- `src/main/java/com/company/onlineschool/entity/Course.java`
+- `src/main/java/com/company/onlineschool/entity/Student.java`
+- `src/main/java/com/company/onlineschool/dto/CourseRequest.java`
+- `src/main/java/com/company/onlineschool/dto/CourseResponse.java`
+- `src/main/java/com/company/onlineschool/dto/StudentRequest.java`
+- `src/main/java/com/company/onlineschool/repository/CourseRepository.java`
+- `src/main/java/com/company/onlineschool/repository/StudentRepository.java`
+- `src/main/java/com/company/onlineschool/exception/ResourceNotFoundException.java`
+- `src/main/java/com/company/onlineschool/exception/DuplicateEmailException.java`
+- `src/main/java/com/company/onlineschool/exception/ApiError.java`
+- `src/main/java/com/company/onlineschool/exception/GlobalExceptionHandler.java`
+- `src/main/java/com/company/onlineschool/service/SchoolService.java`
+- `src/main/java/com/company/onlineschool/service/SchoolServiceImpl.java`
+- `src/main/java/com/company/onlineschool/controller/CourseController.java`
+- `src/main/java/com/company/onlineschool/controller/StudentController.java`
 
 ---
 
@@ -115,7 +130,9 @@ See `src/main/java/com/company/onlineschool/`.
 
 The supplied suite contains isolated service tests with Mockito, standalone MockMvc controller contract tests, and `@DataJpaTest` persistence tests with H2. JUnit 4 tests are run through the Vintage engine.
 
-See `src/test/java/com/company/onlineschool/`.
+- `src/test/java/com/company/onlineschool/SchoolServiceTest.java`
+- `src/test/java/com/company/onlineschool/ControllerContractTest.java`
+- `src/test/java/com/company/onlineschool/JpaMappingTest.java`
 
 ---
 
